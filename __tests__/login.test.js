@@ -10,7 +10,7 @@ describe('Verify Tiwtter login page',() => {
         this.loginPage = new LoginPage();
         this.homePage = new HomePage();
         this.twitterAccount = new TwitterAccount();
-        this.credentials = this.twitterAccount.myAccount();
+        this.credentials = this.twitterAccount.sampleAccount();
         jest.setTimeout(10000);  
 
         await this.landingPage.OpenTwitter();  
